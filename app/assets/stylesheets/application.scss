@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap";
+
+ body {
+   background-image: url(https://i.ibb.co/6WT9Db2/411.jpg);
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+   height: 100%;
+ }
+
+ h1 {
+   margin-top:200px;
+   color: white;
+ }
